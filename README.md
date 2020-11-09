@@ -12,3 +12,6 @@ bokeh: pip install bokeh
 ```
 bokeh serve --show teal.py
 ```
+###### Description
+- The idea is to visualize the variation in number of **deeds** w.r.t time for Delhi region.
+- Since bokeh cannot deal with shape files **.shp** directly, requires processing **.shp** files using **geopandas** and **shapely**.
